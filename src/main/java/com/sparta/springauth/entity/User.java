@@ -29,5 +29,9 @@ public class User {
     private UserRoleEnum role;
 
     public User(String username, String password, String email, UserRoleEnum role) {
+        this.username = username;
+        this.password = password;
+        this.email = email;
+        this.role = role;
     }
 }
